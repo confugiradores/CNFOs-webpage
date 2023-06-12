@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CNFOs</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://cnfos.confugiradores.es/css/nightmode.css">
+	<link rel="stylesheet" href="https://cnfos.confugiradores.es/css/estilos.css">
+	<link rel="stylesheet" href="https://cnfos.confugiradores.es/css/carrusel.css">
+	<link rel="shortcut icon" href="https://cnfos.confugiradores.es/resources/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div id="wrapper">
+	<div id="cover"></div>
+	<!-- Encabezado -->
+	<header id="scroll">
+		<img id="logo-img" src="https://cnfos.confugiradores.es/resources/light-logo.png" alt="Imagen del encabezado">
+		<div id="logo">NF<span>Os</span></div>
+	</header>
+
+	<!-- Menú -->
+	<nav id="menus">
+		<div class="dropdown" id="lng-container">
+			<img class="iconos" src="https://cnfos.confugiradores.es/resources/iconos/comunity.svg"><span id="lng-active">ES</span>
+			<div id="langs" class="dropdown-content">
+				<p id="lang-es">🇪🇸 ES</p>
+				<p id="lang-en">🇬🇧 EN</p>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<a href=".">
+					<img class="iconos" src="https://cnfos.confugiradores.es/resources/iconos/home.svg">
+					<span id="start" class="lang"></span>
+				</a>
+			</li>
+			<li>
+				<a href="https://cnfos.confugiradores.es/noticias/" id="menu-noticias">
+					<img class="iconos" src="https://cnfos.confugiradores.es/resources/iconos/news.svg">
+					<span id="news" class="lang"></span>
+				</a>
+			</li>
+			<li>
+				<a href="https://cnfos.confugiradores.es/descargas/">
+					<img class="iconos" src="https://cnfos.confugiradores.es/resources/iconos/downloads.svg">
+					<span id="downloads" class="lang"></span>
+				</a>
+			</li>
+			<li class="dropdown">
+                <a href="#">
+					<img class="iconos" src="https://cnfos.confugiradores.es/resources/iconos/comunity.svg">
+					<span id="comm" class="lang"></span>
+				</a>
+                <div class="dropdown-content">
+					<a href="https://cnfos.confugiradores.es/forum/">
+						<img class="iconos" src="https://cnfos.confugiradores.es/resources/iconos/forum.svg">
+						<span id="forum" class="lang"></span>
+					</a>
+                    <a href="https://github.com/confugiradores/CNFOs">
+						<img class="iconos" src="https://cnfos.confugiradores.es/resources/iconos/github.svg">
+						Github
+					</a>
+                    <a href="https://twitter.com/confugiradores" target="_blank"><img class="iconos" src="https://cnfos.confugiradores.es/resources/iconos/twitter.svg">
+						Twitter
+					</a>
+                </div>
+            </li>
+			<li>
+				<a href="https://www.buymeacoffee.com/cnfos" target="_blank">
+					<img class="iconos" src="https://cnfos.confugiradores.es/resources/iconos/donations.svg">
+					<span id="don" class="lang"></span>
+				</a>
+			</li>
+		</ul>
+		
+		<img src="https://cnfos.confugiradores.es/resources/svg/light.svg" alt="nightmode" id="nmode">
+	</nav>
+
+	<!-- Contenido -->
+	<div class="container">
+		<div class="row">
+			<h2 id="home-head1"></h2>
+			<p id="home-sub1"></p>
+		</div>
+		<div class="row">
+			<h2 id="home-head2"></h2>
+			<p id="home-sub2"></p>
+		</div>
+		<div class="box"> 
+			<h2>Openbox + Polybar</h2>
+			<p id="home-sub3"></p>
+			<p id="home-sub3-2"></p>
+		</div>
+		<div class="box">
+			<img class="imgtext" src="https://cnfos.confugiradores.es/resources/openbox.png">
+		</div>
+		<div class="box">
+			<img class="imgtext small" src="https://cnfos.confugiradores.es/resources/eoka.png">
+		</div>
+		<div class="box">
+			<h2 id="home-head4"></h2>
+			<p id="home-sub4"></p>
+		</div>
+		<div class="box">
+			<h2 id="home-head5"></h2>
+			<p id="home-sub5"></p>
+		</div>
+		<div class="box">
+			<h2 id="home-temas"></h2>
+			<div class="slide">
+                <div class="slide-inner">
+                    <input class="slide-open" type="radio" id="slide-1" 
+                          name="slide" aria-hidden="true" hidden="" checked="checked">
+                    <div class="slide-item">
+                        <img src="https://cnfos.confugiradores.es/resources/carrousel/carru1.png">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-2" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="https://cnfos.confugiradores.es/resources/carrousel/carru2.jpg">
+                    </div>
+                    <input class="slide-open" type="radio" id="slide-3" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="https://cnfos.confugiradores.es/resources/carrousel/carru3.png">
+                    </div>
+                    <label for="slide-3" class="slide-control prev control-1">&lt;</label>
+                    <label for="slide-2" class="slide-control next control-1">&gt;</label>
+                    <label for="slide-1" class="slide-control prev control-2">&lt;</label>
+                    <label for="slide-3" class="slide-control next control-2">&gt;</label>
+                    <label for="slide-2" class="slide-control prev control-3">&lt;</label>
+                    <label for="slide-1" class="slide-control next control-3">&gt;</label>
+                    <ol class="slide-indicador">
+                        <li>
+                            <label for="slide-1" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-2" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-3" class="slide-circulo">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+		</div>
+		<div class="box">
+			<a  href="https://cnfos.confugiradores.es/descargas/index.html"><img class="imgtext" src="https://cnfos.confugiradores.es/resources/aventura.jpg"></a>
+		</div>
+		<div class="box">
+			<h2 id="home-head6"></h2>
+			<p id="home-sub6"></p>
+		</div>
+		<div class="row">
+			<h2 id="home-head7"></h2>
+			<p id="home-sub7"></p>
+			<a href="https://cnfos.confugiradores.es/noticias" class="button" id="home-gotonews"></a>
+		</div>
+		<div class="row">
+			<h2 id="home-head8"></h2>
+			<div class="team">
+				<div class="usus">
+					<img src="https://cnfos.confugiradores.es/resources/alberton.png">
+					<h3>Alberto (AlbertoN) Nieto Rey</h3>
+					<div>
+						<p class="desc-show">System builder and Chief of System Mainteinance</p>
+						<p>Dependency God</p>
+					</div>
+				</div>
+				<div class="usus">
+					<img src="https://cnfos.confugiradores.es/resources/ivan.jpg">
+					<h3>Iván (BiCH0) Martínez Alcoceba</h3>
+					<div>
+						<p class="desc-show">Eoka and Autoturret developer and Rust programmer</p>
+						<p>Rust sucks my pp</p>
+					</div>
+				</div>
+				<div class="usus">
+					<img src="https://cnfos.confugiradores.es/resources/evaristo.png">
+					<h3>Carlos (Odogmar) Amicarelli</h3>
+					<div>
+						<p class="desc-show">Web developer and database administrator</p>
+						<p>I know how to center this div</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>CNFOs by Confugiradores <span id="year"></span></footer>
+	</div>
+	<script src="https://cnfos.confugiradores.es/js/accesibility.js"></script>
+	<script>
+		const team = document.getElementsByClassName("team")[0];
+		team.querySelectorAll(".usus").forEach(item => {
+			item = item.querySelector("div");
+			item.addEventListener("mouseenter",async e =>{
+				let childnodes = e.target.querySelectorAll("p");
+				childnodes[0].classList = "desc-show";
+				childnodes[1].classList = "";
+				let count = true;
+				e.target.addEventListener("mouseleave",async e =>{
+					count = false;
+					await sleep(600);
+					childnodes[1].classList.remove("desc-show");
+					await sleep(500);
+					childnodes[0].classList.add("desc-show");
+				})
+				await sleep(10000);
+				console.log("Exit with "+count)
+				if (count == true){
+					childnodes[0].classList.remove("desc-show");
+					await sleep(500);
+					childnodes[1].classList.add("desc-show");
+				}
+			})
+		});
+	</script>
+</body>
+</html>

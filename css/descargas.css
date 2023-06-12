@@ -1,0 +1,159 @@
+.serversDiv{
+    display: flex;
+    gap: 10px;
+}
+.serversDiv *{
+    width: 50%;
+}
+#map{
+    z-index: 2;
+    border-radius: .5rem;
+    height: 400px;
+}
+.leaflet-popup-content,.leaflet-popup-content-wrapper{
+    background: none;
+    box-shadow: none;
+    margin: 0px;
+  }
+  .leaflet-container a.leaflet-popup-close-button {
+    display: none;
+  }
+  .leaflet-marker{
+    list-style: none;
+    border-radius:12px;
+    padding: 10px;
+    background: var(--container);
+    color: var(--text);
+    margin: 0px;
+    width: fit-content;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+  }
+  .leaflet-control-zoom{
+    width: fit-content;
+  }
+  .leaflet-control-attribution{
+    width: 60px;
+  }
+  .leaflet-control-attribution svg{
+    display: none!important;
+  }
+  .leaflet-popup-tip-container{
+    bottom: -15px;
+  }
+  .leaflet-popup-tip{
+    background: var(--container);
+  }
+  .leaflet-marker.master{
+    border: 3px solid var(--purple);
+  }
+  .leaflet-marker.slave{
+    border: 3px solid var(--yellow);
+  }
+  .leaflet-marker.sleepy{
+    border: 3px solid grey;
+  }
+  .leaflet-marker>li{
+    font-size: 15px;
+  }
+  .leaflet-marker.sleepy>li:first-of-type{
+    text-decoration: line-through;
+    text-decoration-color: var(--red);
+  }
+  .leaflet-marker>li:last-of-type{
+    display: inline;
+  }
+  .leaflet-marker>li>a{
+    color: var(--red);
+    text-decoration: none;
+    font-family: conthrax;
+  }
+  /* .leaflet-marker>li>a:hover{
+    color: var(--text-foot);
+  } */
+  .leaflet-marker .low{
+    color: rgb(0, 255, 0);
+  }
+  .leaflet-marker .mid{
+    color: rgb(214, 211, 18);
+  }
+  .leaflet-marker .high{
+    color: rgb(255, 153, 0);
+  }
+  .leaflet-marker .shigh{
+    color: rgb(255, 0, 0);
+  }
+  .sleepy.leaflet-marker > .low{
+    color: rgb(68, 124, 68);
+  }
+  .sleepy.leaflet-marker > .mid{
+    color: rgb(150, 132, 72);
+  }
+  .sleepy.leaflet-marker > .high{
+    color: rgb(122, 87, 64);
+  }
+  .sleepy.leaflet-marker > .shigh{
+    color: rgb(122, 64, 64);
+  }
+  .serversDiv{
+    width: 80%;
+  }
+  .serversDiv > div:nth-child(2){
+    max-height: 400px;
+    overflow: scroll;
+  }
+  #placeholder{
+    opacity: 0;
+  }
+  #serversTable{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    text-align: center;
+  }
+  #serversTable td,#serversTable th{
+    position: relative;
+    padding: 10px;
+    background-color: rgba(97, 76, 76, 0.2);
+    border-radius: .5rem;
+  }
+  #serversTable th{
+    background-color: rgba(150, 46, 46, 0.2);
+    height: 30px;
+    padding-bottom: 25px;
+    line-height: 30px;
+  }
+  #serversTable th.sort{
+    transition: color .3s;
+    padding: 0;
+  }
+  #serversTable select{
+    display: inline-block;
+    margin: 0 25%;
+    min-width: 6ch;
+    left: 0;
+    top: 40px;
+    padding: 0px;
+    position: absolute;
+    border: none;
+    background: none;
+    color: var(--text);
+    transition: color .3s;
+  }
+  #serversTable option{
+    background-color: var(--men);
+    color: var(--text);
+    transition: color .5s;
+  }
+  #serversTable select:hover, #serversTable .sort:hover{
+    color: var(--text-foot);
+    cursor: pointer;
+  }
+  #serversTable tr.sleepy td:nth-of-type(2){
+    text-decoration: line-through var(--text);
+  }
+  #no-servers{
+    font-size: 1.5rem;
+    display: none;
+    width: 249%;
+    border-radius: 0 0 .5rem .5rem;
+  } 

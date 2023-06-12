@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg3461"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   sodipodi:docname="night-logo.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3465" />
+  <sodipodi:namedview
+     id="namedview3463"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.625"
+     inkscape:cx="383.69231"
+     inkscape:cy="254.76923"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer5"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Image 1"
+     style="display:inline">
+    <g
+       id="g4024"
+       style="display:inline;fill:#000000">
+      <path
+         style="fill:#000000"
+         d="M 0,256 V 0 h 52 52 V 26 52 H 77.5 51 V 255.5 459 H 77.5 104 V 485.5 512 H 52 0 Z M 408,485.5 V 459 H 434.5 461 V 255.5 52 H 434.5 408 V 26 0 h 52 52 V 256 512 H 460 408 Z M 246,408 v -27 h -27 -27 v 9 9 H 165.5 139 v -27 -27 h 9 9 V 318.5 292 h -27 -27 v -36 -36 h 27 27 V 193.5 167 h -9 -9 v -27 -27 h 26.5 26.5 v 9 9 h 27 27 V 104.5 78 h 35.5 35.5 v 26.5 26.5 h 18 18 v 9 9 h 18 18 V 184.5 220 H 362 335 V 211.5 203 H 317.5 300 v -9 -9 h -18 -18 v 9 9 h -18 -18 v 17.5 17.5 h -9 -9 v 18 18 h 9 9 v 18 18 h 18 18 v 9 9 h 18 18 v -9 -9 h 17.5 17.5 v -9 -9 h 27 27 v 35.5 35.5 h -18 -18 v 9 9 h -18 -18 v 27 27 H 281.5 246 Z"
+         id="path4028" />
+      <path
+         style="fill:#000000"
+         d="M 0,256 V 0 h 52 52 V 26 52 H 77.5 51 V 255.5 459 H 77.5 104 V 485.5 512 H 52 0 Z M 408,485.5 V 459 H 434.5 461 V 255.5 52 H 434.5 408 V 26 0 h 52 52 v 256 256 h -52 -52 z"
+         id="path4026"
+         sodipodi:nodetypes="cccccccccccccccccccccccccccccccccc" />
+    </g>
+  </g>
+</svg>

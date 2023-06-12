@@ -1,0 +1,19 @@
+/*Nightmode.css*/
+:root{
+	--container:#303030;
+	--menu-container:red;
+	--shadow: #000000a2;
+	--subheader: #c0c0c0;
+	--subhover: #502d2d;
+	--dark-grey: #8a8a8a;
+	--box:#141414;
+	--text:#f7f7f7;
+	--text-foot:#b95e5e;
+	--men:#252525;
+	--transparency: rgba(49, 49, 49, 0.2);
+	--button: rgb(161, 63, 63);
+	--red: rgb(207, 73, 73);
+	--green:rgb(122, 207, 73);
+	--purple: rgb(164, 90, 194);
+	--yellow: rgb(167, 173, 80);
+}

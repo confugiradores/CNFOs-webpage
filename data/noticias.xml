@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noticias>
+    <noticia author="Alberto Nieto" date="08/05/2023">
+            <title>Aterrizan las nuevas versiones a CNFOs!</title>
+            <content><![CDATA[
+                Ahora CNFOs usará el kernel Linux 6.1.11 y las siguientes versiones:
+                <ul>
+                    <li>Mesa 22.3.5</li>
+                    <li>Xorg-Server 21.1.7</li>
+                    <li>XWayland 22.1.8</li>
+                    <li>Openbox 3.6.1</li>
+                    <li>Polybar 3.6.3</li>
+                    <li>Firefox ESR 102.8.0</li>
+                </ul>
+            ]]>
+            </content>
+    </noticia>
+    <noticia author="Alberto Nieto" date="20/05/2023">
+        <title>Lanzamiento oficial de CNFOs!</title>
+        <content><![CDATA[
+            <img src="../../resources/portatil.png">
+            El próximo día 11 de junio se lanzará la primera versión de CNFOs, que incluye entorno gráfico, Eoka y mucho más!
+            Podrás navegar con Firefox, editar tus archivos con Mousepad e incluso organizar tus tareas con Tasktrail, además del terminal Kitty con varios temas a elegir que te dejarán engatosado 🐱.
+Todo ello viene preparado en la primera versión, ¿estás listo?
+        ]]>
+        </content>
+    </noticia>
+    <noticia author="Ivan Martinez" date="02/06/2023">
+        <title>Ahora CNFOs incluye Eoka!</title>
+        <content><![CDATA[
+        <img src="../../resources/eoka.png">
+        Actualiza, instala o desinstala paquetes de forma rápida y segura mediante Eoka. Con solo un comando podrás tener tu sistema al día y disfrutar de las últimas novedades de tus programas favoritos. Eoka está hecho con Rust y cariño para que estés a la última en menos que canta un gallo. O… un pingüino 🐧 💻 .
+  ]]>
+        </content>
+    </noticia>
+    <noticia author="Ivan Martinez" date="08/06/2023">
+        <title>CNFOs aterriza en Discord!</title>
+        <content><![CDATA[
+        <img src="../../resources/noticias/discord.webp">
+        Ya puedes acceder al servidor de Discord de Confugiradores, donde podrás chatear con otros usuarios de CNFOs o buscar tu próximo equipo de E-sports.
+        <a class="button" style="align-self:center;margin-top:20px;" href="https://discord.gg/invite/9aqHgCT7jm">Unirse</a>
+  ]]>
+        </content>
+    </noticia>
+</noticias>

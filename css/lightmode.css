@@ -1,0 +1,22 @@
+/*Lightmode.css*/
+:root{
+	--container:#cecece;
+	--menu-container:red;
+	--shadow: #a38080a2;
+	--subheader: #363636;
+	--subhover: #e79797;
+	--dark-grey: #4b4a4a;
+	--box:#f7f7f7;
+	--text:black;
+	--text-foot:#b95e5e;
+	--men:#eee;
+	--transparency: rgba(32, 32, 32, 0.2);
+	--button: rgb(161, 63, 63);
+	--red: rgb(184, 55, 55);
+	--green:rgb(127, 212, 16);
+	--purple: rgb(208, 111, 247);
+	--yellow: rgb(246, 255, 117);
+}
+
+
+
